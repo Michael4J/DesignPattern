@@ -9,10 +9,25 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>D01CreationalPatterns</module>
-        <module>D02StructuralPatterns</module>
-        <module>D03BehavioralPatterns</module>
-        <module>D04J2EEPatterns</module>
+        <module>d01creational-patterns</module>
+        <module>d02structural-patterns</module>
+        <module>d03behavioral-patterns</module>
+        <module>d04J2EE-patterns</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
