@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>d01creational-patterns</module>
-        <module>d02structural-patterns</module>
-        <module>d03behavioral-patterns</module>
-        <module>d04J2EE-patterns</module>
+        <module>D01CreationalPatterns</module>
+        <module>D02StructuralPatterns</module>
+        <module>D03BehavioralPatterns</module>
+        <module>D04J2EEPatterns</module>
     </modules>
 
     <build>
